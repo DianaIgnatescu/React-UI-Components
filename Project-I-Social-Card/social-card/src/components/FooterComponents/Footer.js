@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
 import './Footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -9,14 +10,14 @@ import {
 
 // library.add(far, faHeart, faComment, faEnvelope);
 
-const Footer = props => (
+const Footer = ({ commentCount, retweetCount, likeCount }) => (
   <div className="footer">
     <FontAwesomeIcon className="comment" icon={faComment} />
-    {props.commentCount}
+    {commentCount}
     <FontAwesomeIcon className="retweet" icon={faSyncAlt} />
-    {props.retweetCount}
+    {retweetCount}
     <FontAwesomeIcon className="heart" icon={faHeart} />
-    {props.likeCount}
+    {likeCount}
     <FontAwesomeIcon className="envelope" icon={faEnvelope} />
   </div>
 );
