@@ -1,0 +1,26 @@
+.footer {
+  color: darkgrey;
+  margin-left: 100px;
+  align-self: center;
+}
+
+.comment {
+  padding: 15px 60px 0 0;
+  font-size: 30px;
+}
+
+.retweet {
+  padding: 15px 10px 0 0;
+  font-size: 30px;
+}
+
+
+.heart {
+  padding: 15px 10px 0 60px;
+  font-size: 30px;
+}
+
+.envelope {
+  padding: 15px 30px 0 60px;
+  font-size: 30px;
+}

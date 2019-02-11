@@ -1,7 +1,7 @@
 /* All styles for your Card Components live here */
 
 .card-container {
-  margin-left: 120px;
+  margin-left: 100px;
 }
 .card-banner {
   background-image: url('./reactbackground.png');
