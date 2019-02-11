@@ -4,14 +4,11 @@ import HeaderTitle from './HeaderTitle';
 import ImageThumbnail from './ImageThumbnail';
 import HeaderContent from './HeaderContent';
 
-const HeaderContainer= () => {
-  return (
-    <div className="header-container">
-      <HeaderTitle />
-      <ImageThumbnail />
-      <HeaderContent />
-    </div>
-  );
-}
+const HeaderContainer = () => (
+  <div className="header-container">
+    <ImageThumbnail />
+    <HeaderContent />
+  </div>
+);
 
 export default HeaderContainer;
