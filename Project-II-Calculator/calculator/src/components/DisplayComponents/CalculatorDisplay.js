@@ -1,9 +1,12 @@
 import React from 'react';
 import './Display.css';
 
-const CalculatorDisplay = () => {
+const CalculatorDisplay = ({ value }) => {
   return (
-   <input type="text" placeholder="0"></input>
+    <div className="calculator-display">
+      <p>{value}</p>
+    </div>
+   
   );
 };
 

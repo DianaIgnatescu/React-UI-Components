@@ -11,7 +11,7 @@ const NumberButton = (props) => {
   }
   return (
     <div className="number-button">
-      <button>{props.text}</button>
+      <button onClick={props.onClick}>{props.text}</button>
     </div>
   );
 };
