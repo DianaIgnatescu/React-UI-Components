@@ -1,0 +1,14 @@
+input {
+  background: black;
+  color: white;
+  width: 394px;
+  height: 100px;
+  font-size: 60px;
+}
+
+::placeholder {
+  color: white;
+  text-align: right;
+  padding: 10px;
+  font-weight: 300;
+}
