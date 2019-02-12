@@ -5,7 +5,7 @@ const NumberButton = (props) => {
   if (props.color === 'red') {
     return (
       <div className="number-button">
-        <button className="red-button">{props.text}</button>
+        <button onClick={props.onClick} className="red-button">{props.text}</button>
       </div>
     );
   }

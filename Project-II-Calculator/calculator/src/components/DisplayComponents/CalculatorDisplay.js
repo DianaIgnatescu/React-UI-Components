@@ -6,7 +6,6 @@ const CalculatorDisplay = ({ value }) => {
     <div className="calculator-display">
       <p>{value}</p>
     </div>
-   
   );
 };
 
