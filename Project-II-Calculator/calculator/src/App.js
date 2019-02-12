@@ -15,7 +15,6 @@ const App = () => {
         <NumberButton color="red" text="÷" />
       </ButtonContainer>
 
-       
       <ButtonContainer>
         <NumberButton text="7" />
         <NumberButton text="8" />
@@ -40,8 +39,7 @@ const App = () => {
       <ButtonContainer>
         <ActionButton large text="0" />
         <NumberButton color="red" text="=" />
-      </ButtonContainer>
-      
+      </ButtonContainer>    
     </div>
   );
 };
