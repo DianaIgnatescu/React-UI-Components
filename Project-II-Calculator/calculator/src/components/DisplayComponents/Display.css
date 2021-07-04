@@ -1,9 +1,20 @@
-input {
+.calculator-display {
   background: black;
-  color: white;
-  width: 394px;
+
+  width: 396px;
   height: 100px;
+
+  justify-content: center;
+  border: 1px solid darkgrey;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: right;
+}
+
+.calculator-display p {
   font-size: 60px;
+  color: white;
+  margin: 0;
+  padding: 40px 5px 0 0;
 }
 
 ::placeholder {

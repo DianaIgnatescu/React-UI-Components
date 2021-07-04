@@ -5,13 +5,13 @@ const ActionButton = (props) => {
   if (props.large) {
     return (
       <div className="action-button">
-        <button className="large">{props.text}</button>
+        <button onClick={props.onClick} className="large">{props.text}</button>
       </div>
     );
   }
   return (
     <div className="action-button">
-      <button>{props.text}</button>
+      <button onClick={props.onClick}>{props.text}</button>
     </div>
   );
 };
